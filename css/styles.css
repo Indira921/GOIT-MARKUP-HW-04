@@ -81,6 +81,7 @@ img {
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 93px;
 }
 .site-nav-item {
     display: block; 
@@ -209,8 +210,7 @@ img {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 94px 15px;
 }
 .visually-hidden {
     position: absolute;
@@ -303,8 +303,7 @@ img {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 94px 15px;
 }
 .heads2 {
     margin: 0 auto 50px;
@@ -423,7 +422,7 @@ margin-right: 10px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 15px;
+    padding: 94px 15px;
 }
 .clients-list {
     display: flex;
@@ -452,10 +451,12 @@ margin-right: 10px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 }
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus, {
     border: 1px solid var(--accent-color);
 }
-.clients-link:hover .clients-logo {
+.clients-link:hover .clients-logo,
+.clients-link:focus .clients-logo {
     fill: var(--accent-color);
 }
 
@@ -581,7 +582,7 @@ margin-right: 10px;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
+    margin: 94px auto;
 }
 .portfolio-hero-container.site-nav {
     text-align:center;
@@ -639,8 +640,8 @@ margin-right: 10px;
     margin-bottom: 30px;
     cursor: pointer;    
 }
-.portfolio-container-element:hover,
-.portfolio-container-element:focus {
+.card-list-link:hover,
+.card-list-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
