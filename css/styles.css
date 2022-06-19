@@ -81,7 +81,6 @@ img {
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 93px;
 }
 .site-nav-item {
     display: block; 
@@ -149,7 +148,7 @@ img {
     padding: 200px 0; 
     background: #2F303A;
     text-align: center; 
-    width: 1600px; 
+    max-width: 1600px; 
     margin-left: auto;
     margin-right: auto;
     
@@ -206,11 +205,14 @@ img {
 }
 
 /* Наши преимущества */
+.features {
+    padding: 94px 0;
+}
 .second-container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 94px 15px;
+    padding: 0 15px;
 }
 .visually-hidden {
     position: absolute;
@@ -244,7 +246,6 @@ img {
     align-items: center;
     width: 270px;
     height: 120px;
-    margin-bottom: 30px;
     background-color: #F5F4FA;
     border-radius: 4px;
     
@@ -299,11 +300,14 @@ img {
 }
 
 /* Чем мы занимаемся */
+.services {
+    padding-bottom: 94px ;
+}
 .services-container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 94px 15px;
+    padding: 0 15px;
 }
 .heads2 {
     margin: 0 auto 50px;
@@ -416,13 +420,15 @@ margin-right: 10px;
 }
 
 /*Постоянные клиенты*/
-
+.clients {
+    padding: 94px 0;
+}
 .clients-container {
     text-align: center;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 94px 15px;
+    padding: 0 15px;
 }
 .clients-list {
     display: flex;
@@ -433,11 +439,9 @@ margin-right: 10px;
     padding: 0;
 }
 .clients-list-container {
-    
     width: 170px;
     margin: 0 30px 0 0;
     height: 92px;
-    
 }
 .clients-list-container:last-child {
     margin-right: 0;
@@ -452,14 +456,13 @@ margin-right: 10px;
     border-radius: 4px;
 }
 .clients-link:hover,
-.clients-link:focus, {
+.clients-link:focus {
     border: 1px solid var(--accent-color);
 }
 .clients-link:hover .clients-logo,
 .clients-link:focus .clients-logo {
     fill: var(--accent-color);
 }
-
 .clients-logo {
     fill: #afb1b8;
 }
@@ -481,9 +484,7 @@ margin-right: 10px;
     align-items: baseline; 
 }
 .address-container {
-    display: inline-block;
     align-items: baseline;
-    margin-left: 0;
 }
 .webstudio-logo {
     margin-left: 0;
@@ -578,11 +579,13 @@ margin-right: 10px;
 }
 
 /* PORTFOLIO-CONTAINER*/
+.portfolio {
+    padding: 94px 0;
+}
 .portfolio-hero-container {
     width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 94px auto;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 .portfolio-hero-container.site-nav {
     text-align:center;
